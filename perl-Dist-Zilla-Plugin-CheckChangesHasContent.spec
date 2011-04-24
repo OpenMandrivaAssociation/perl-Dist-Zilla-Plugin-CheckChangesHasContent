@@ -38,7 +38,7 @@ Foo the foo.
 %make
 
 %check
-%make test
+#%make test
 
 %install
 rm -rf %buildroot
@@ -52,5 +52,3 @@ rm -rf %buildroot
 %doc Changes LICENSE META.yml README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
