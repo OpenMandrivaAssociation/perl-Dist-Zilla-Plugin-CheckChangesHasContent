@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-CheckChangesHasContent-0.003.tar.gz: 5b6fc88e0b34c9c044cf1f0e5d13b3b83f7b4f19
 sources:
-  "Dist-Zilla-Plugin-CheckChangesHasContent-0.003.tar.gz": 5b6fc88e0b34c9c044cf1f0e5d13b3b83f7b4f19
+  Dist-Zilla-Plugin-CheckChangesHasContent-0.006.tar.gz: c80f810234ac35c9174685fa5d065df6fa810f5d

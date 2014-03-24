@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-CheckChangesHasContent
-%define upstream_version 0.003
+%define upstream_version 0.006
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Ensure Changes has content before releasing
 License:	GPL+ or Artistic
@@ -46,4 +46,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes LICENSE META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
