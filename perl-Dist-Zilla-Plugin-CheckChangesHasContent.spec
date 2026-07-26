@@ -1,16 +1,14 @@
 %define upstream_name    Dist-Zilla-Plugin-CheckChangesHasContent
-%define upstream_version 0.011
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.011
+Release:	2
 
 Summary:	Ensure Changes has content before releasing
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/dagolden/Dist-Zilla-Plugin-CheckChangesHasContent
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Dist-Zilla-Plugin-CheckChangesHasContent-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Dist-Zilla-Plugin-CheckChangesHasContent-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ BuildArch:	noarch
 Foo the foo.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
